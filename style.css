@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #be9232, #d7e4eb);
+    font-family: "Raleway", sans-serif;
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*opacity: 0;*/
+    transform: translate(-50%, -50%) scale(1.25);
+    /*max-width: 400px;*/
+    width: 500px;
+    height: 450px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 20px 30px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.container #registration-form h2 {
+    height: 1%;
+}
+h2 {
+    text-align: center;
+    margin: 10px 0 20px;
+    color: #cf920d;
+    font-size: large;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color:#222
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    margin: 0px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    font-style: bold;
+    position: relative;
+}
+
+
+button {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    font-size: 16px;
+    /*display: block;*/
+    /*padding: 10px;*/
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+a{
+    display: block;
+    text-align: right;
+    font-size: 15px;
+    color: #1a79ca;
+    text-decoration: none;
+    font-weight: 600;
+}
